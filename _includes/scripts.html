@@ -1,0 +1,14 @@
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.scrollex.min.js"></script>
+<script src="js/jquery.scrolly.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/util.js"></script>
+<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+<script src="js/main.js"></script>
+
+{% if page.title == 'Map' %}
+<!-- OpenLayers 3 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.2.1/ol.min.js"></script>
+<script type="text/javascript" src="{{ "js/draw-features.js" | prepend: site.baseurl }}"></script>
+{% endif %}
