@@ -4,7 +4,7 @@ description: culturability
 owner: cogiar+ # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: cogiarplus@domain.com
-baseurl: /culturability/ # the subpath of your site, e.g. /blog
+baseurl: /culturability # the subpath of your site, e.g. /blog
 url: http://cogiarplus.github.io # the base hostname & protocol for your site
 social:
   twitter: "#"
