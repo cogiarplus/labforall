@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lab4All</title>
-    <description>Lab4Alldesc</description>
-    <link>http://cogiarplus.github.io/culturability/</link>
-    <atom:link href="http://cogiarplus.github.io/culturability/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Apr 2016 19:15:36 +0200</pubDate>
-    <lastBuildDate>Thu, 07 Apr 2016 19:15:36 +0200</lastBuildDate>
+    <title>LabforAll</title>
+    <description>labforAll description</description>
+    <link>http://cogiarplus.github.io/labforall/</link>
+    <atom:link href="http://cogiarplus.github.io/labforall/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 07 Apr 2016 20:55:07 +0200</pubDate>
+    <lastBuildDate>Thu, 07 Apr 2016 20:55:07 +0200</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
   </channel>

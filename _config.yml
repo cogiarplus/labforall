@@ -1,10 +1,10 @@
 # Site settings
-title: Lab4All
-description: Lab4Alldesc
+title: LabforAll
+description: labforAll description
 owner: Cogiarplus # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: cogiarplus@gmail.com
-baseurl: /culturability # the subpath of your site, e.g. /blog
+baseurl: /labforall # the subpath of your site, e.g. /blog
 url: http://cogiarplus.github.io # the base hostname & protocol for your site
 social:
   twitter: "#"
