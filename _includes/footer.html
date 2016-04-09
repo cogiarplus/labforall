@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer id="footer">
-  <ul class="icons">
+  <!-- <ul class="icons">
     {% for socloc in site.social %}
     {% if socloc[1] %}
     {% if socloc[0] == 'email' %}
@@ -12,15 +12,23 @@
     {% endif %}
     {% endif %}
     {% endfor %}
+  </ul> -->
+
+
+  <ul class="icons">
+    <li><a target="_blank" href="" class=""><img src="{{ "/images/icon_bw-labforall.png" | prepend: site.baseurl }}" alt=""></a></li>
+    <li><a target="_blank" href="" class=""><img src="{{ "/images/icon_bw-cogiarplus.png" | prepend: site.baseurl }}" alt=""></a></li>
   </ul>
+
   <ul class="copyright">
-    <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
+
+    <li>{% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %} &copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
       {% if diff contains '-' %}{{ site.first_published }},{% endif %}
     {% endif %}
     {{ thisyear }}
-    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
+    </li>
     <li>Tutti i diritti riservati</li>
   </ul>
 </footer>
