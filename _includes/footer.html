@@ -14,15 +14,14 @@
     {% endfor %}
   </ul> -->
 
-
   <ul class="icons">
-    <li><a target="_blank" href="" class=""><img src="{{ "/images/icon_bw-labforall.png" | prepend: site.baseurl }}" alt=""></a></li>
-    <li><a target="_blank" href="" class=""><img src="{{ "/images/icon_bw-cogiarplus.png" | prepend: site.baseurl }}" alt=""></a></li>
+    <li><a href="{{ site.baseurl | prepend: site.url }}"><img src="{{ "/images/icon_bw-labforall.png" | prepend: site.baseurl }}" alt=""></a></li>
+    <li><a href="{{ site.url }}"><img src="{{ "/images/icon_bw-cogiarplus.png" | prepend: site.baseurl }}" alt=""></a></li>
   </ul>
 
   <ul class="copyright">
 
-    <li>{% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %} &copy; {% assign thisyear = site.time | date: "%Y" %}
+    <li>{% if site.owner %}{{ site.owner }}{% else %}{{ site.nome_del_progetto }}{% endif %} &copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
       {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
       {% if diff contains '-' %}{{ site.first_published }},{% endif %}

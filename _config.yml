@@ -1,29 +1,150 @@
 # Site settings
-title: LabforAll
-description: labforAll description
-owner: Cogiarplus # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+owner: Cogiarplus
+first_published: 2016
 email: cogiarplus@gmail.com
-baseurl: /labforall # the subpath of your site, e.g. /blog
-url: http://cogiarplus.github.io # the base hostname & protocol for your site
+# SITO WEB DEL PROGETTO
+# NOTE: Non modificare
+baseurl: /labforall # The subpath
+url: http://cogiarplus.github.io # The base hostname
+# ALTRI ACCOUNT SUI SOCIAL
 social:
   twitter: "#"
   flickr: "#"
   vimeo: "#"
   github: "#"
 
-# max 140 battute
-il_progetto_in_un_tweet: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor."
+# NOME DEL PROGETTO
+nome_del_progetto: "LABFORALL"
+# CITTA`
+# NOTE: Non usare l'accento nella variabile
+citta: "Pescara"
+# PROVINCIA
+provincia: "Pescara"
+# REGIONE
+regione: "Abruzzo"
 
-# max 2500 battute
+################################################################################
+########################## PRESENTAZIONE DEL PROGETTO ##########################
+################################################################################
+
+# IL PROGETTO IN UN TWEET (MAX 140 BATTUTE)
+# Inserisci l’hashtag #culturability3 e l’account Twitter del tuo progetto (se ne hai uno)
+# In alternativa, inserisci il link al suo sito nei 140 caratteri a disposizione
+il_progetto_in_un_tweet: "Lorem ipsum dolor sit amet, consectetuer elit #culturability3.<br>Aenean commodo ligula eget dolor."
+
+# BREVE DESCRIZIONE DEL PROGETTO (MAX 2500 BATTUTE)
 breve_descrizione_del_progetto: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
 Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa."
 
-# max 3 (vedere sul form)
-principali_campi_in_cui_opera_il_progetto: ""
+# PRINCIPALI CAMPI IN CUI OPERA IL PROGETTO (MAX 3)
+# NOTE: I campi `description` e `icon_` sono presenti solo per ragioni grafiche
+principali_campi_in_cui_opera_il_progetto:
+  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  topic_one: "architettura/urbanistica"
+  icon_one: "fa-users"
+  topic_two: "formazione"
+  icon_two: "fa-microphone"
+  topic_three: "fablab"
+  icon_three: "fa-book"
 
+################################################################################
+########################### DESCRIZIONE DEL PROGETTO ###########################
+################################################################################
+
+# ANALISI DEL CONTESTO TERRITORIALE ( MAX 1000 BATTUTE)
+# Caratteristiche geografiche, politiche, sociali e culturali del contesto in cui il progetto si inserisce
+# NOTE: Diviso in due parti solo per ragioni grafiche
+analisi_del_contesto_territoriale:
+  part_one: "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p><p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+  part_two: "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# DESCRIZIONE DELLO SPAZIO CHE OSPITERA` IL PROGETTO (MAX 1000 BATTUTE)
+# Indicare proprietà, stato di assegnazione, se dismesso o attivo, se pronto per le attività o necessita di ristrutturazioni/implementazioni
+# NOTE: Diviso in due parti solo per ragioni grafiche
+descrizione_dello_spazio:
+  part_one: "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+  part_two: "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p><p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# TODO: DOCUMENTO CHE ATTESTA LA PROPRIETÀ, LA CONCESSIONE O L’ESISTENZA DI UN PROCESSO IN ATTO PER L’ASSEGNAZIONE DELLO SPAZIO (MAX SIZE 2MB - FORMATI CONSENTITI: .DOC .PDF .ZIP .JPG)
+
+# PUBBLICI E BISOGNI (MAX 1000 BATTUTE)
+# Destinatari del progetto e loro bisogni, modalità con cui si prevede di attivare processi di coinvolgimento delle comunità di riferimento
+pubblici_e_bisogni: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# SISTEMA DI OFFERTA E ATTIVITA` CHE VERRANNO PROPOSTE (MAX 1000 BATTUTE)
+# NOTE: Diviso in sei parti solo per ragioni grafiche
+sistema_di_offerta_e_proposte:
+  part_offerta_one: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
+  part_proposta_one: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
+  part_offerta_two: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
+  part_proposta_two: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
+  part_offerta_three:
+  part_proposta_three:
+
+# CARATTERI DISTINTIVI (max 1000 battute)
+# Peculiarità che contraddistinguono il progetto, eventuali elementi di innovazione
+caratteri_distintivi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# STATO ATTUALE DI AVANZAMENTO E PRINCIPALI STEP DA OGGI ALLA REALIZZAZIONE DEL PROGETTO/AVVIO DELLE ATTIVITA` (MAX 1000 BATTUTE)
+stato_attuale_di_avanzamento_e_principali_step: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# PUNTI DI FORZA E DI DEBOLEZZA DEL PROGETTO E DEL TEAM PROPONENTE (MAX 1500 BATTUTE)
+punti_di_forza_e_di_debolezza: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero."
+
+# APPROCCIO COLLABORATIVO E COSTRUZIONE DI RETI (MAX 1000 BATTUTE)
+# Partnership e reti in essere, altre collaborazioni che si intendono attivare e come
+approccio_collaborativo_e_costruzione_di_reti: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# MODALITA` CON CUI IL PROGETTO IMMAGINA DI CREARE OPPORTUNITA` DI OCCUPAZIONE E SVILUPPO DEL TERRITORIO (MAX 1000 BATTUTE)
+occupazione_e_sviluppo_del_territorio: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+################################################################################
+########################### MODELLO DI SOSTENIBILITA` ##########################
+################################################################################
+
+# MODELLO DI SOSTENIBILITÀ: I COSTI (MAX 1000 BATTUTE)
+# Stima a 3 anni
+# Indicare investimenti previsti: quali e quanti
+# Costi principali: quali e quanti
+costi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+
+# MODELLO DI SOSTENIBILITÀ ECONOMICA: LE ENTRATE (MAX 1500 BATTUTE)
+# Stima a 3 anni
+# Contributi pubblici: se si, quali e per quale cifra
+# Entrate commerciali da vendita di prodotti/servizi: indicare quali prodotti/servizi vengono messi a mercato e la stima delle vendite/anno
+# Contributi da privati: indicare se fondazioni, imprese, cittadini, etc.
+# Contributi in beni o servizi
+entrate: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero."
+
+################################################################################
+############################## SOGGETTO PROPONENTE #############################
+################################################################################
+
+# NOTE: Inserire il referente del progetto nella prima variabile annidata
+proponenti:
+  name_one: "Arch. Nomen Nescio"
+  name_two: "Arch. Nomen Nescio"
+  name_three: "Arch. Nomen Nescio"
+  name_four: "Arch. Nomen Nescio"
+  name_five: "Arch. Nomen Nescio"
+  name_six: "Arch. Nomen Nescio"
+
+# NOTE: Usare la barra retroversa (backslash) per evadere i doppi apici
+partner:
+  name: "I.I.S. \"A.Volta\""
+  description: "Partner informale."
+
+# TODO: CURRICULUM DI TUTTI I PROPONENTI IN FORMATO .ZIP (MAX SIZE 2MB - FORMATI CONSENTITI: .DOC .PDF .ZIP .JPG )
+# E` necessario che il CV sia firmato e contenga la dicitura “Presa visione dell’informativa pubblicata sul sito www.culturability.org, ai sensi della Legge 196/03 (Codice Privacy) autorizzo al trattamento dei miei dati perosnali, eventualmente anche sensibili, per le finalità indicate nell’informativa stessa. Date e firma.
+
+# DESCRIVERE BREVEMENTE LE ESPERIENZE IMPRENDITORIALI, PROFESSIONALI, SOCIALI E CULTURALI PIÙ RILEVANTI DEL GRUPPO, ANCHE AI FINI DEL PROGETTO PRESENTATO (MAX 1.500 BATTUTE)
+esperienze_imprenditoriali_professionali_sociali_e_culturali: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero."
+
+# TODO: NEL CASO DI RETI DI PARTNERSHIP CON ORGANIZZAZIONI, L’ACCORDO DI PARTENARIATO (MAX SIZE 2MB - FORMATI CONSENTITI: .DOC .PDF .ZIP .JPG)
+# Ricordati che è necessaria la firma di tutti i rappresentanti legali delle organizzazioni coinvolte
 
 # Build settings
+# NOTE: Non modificare
 markdown: kramdown
-#sass:
-#  style: compressed
+# sass:
+# style: compressed

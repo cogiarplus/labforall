@@ -1,38 +1,45 @@
 ---
 layout: page
 title: Gruppo
-group-title: Nome del gruppo (Es. <b style="color:#ec008c">CoGiAr+</b>)
-description: (Es. <b style="color:#ec008c">Co</b>mmissione <b style="color:#ec008c">Gi</b>ovani <b style="color:#ec008c">Ar</b>chitetti <b style="color:#ec008c">+</b> <b>1</b>)
+grouptitle: Cogiarplus
+description:
 ---
 
 <h3>Soggetto proponente</h3>
-<h5>Proponenti</h5>
 
 <div class="row">
   <div class="6u 12u$(medium)">
+    <h5>Proponenti</h5>
     <ul>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
+      <li><strong>{{ site.proponenti.name_one }}</strong> *</li>
+      <li>{{ site.proponenti.name_two }}</li>
+      <li>{{ site.proponenti.name_three }}</li>
+      <li>{{ site.proponenti.name_four }}</li>
+      <li>{{ site.proponenti.name_five }}</li>
+      <li>{{ site.proponenti.name_six }}</li>
+      {% if site.proponenti.name_seven %}
+      <li>{{ site.proponenti.name_seven }}</li>
+      {% endif %}
+      {% if site.proponenti.name_eight %}
+      <li>{{ site.proponenti.name_eight }}</li>
+      {% endif %}
     </ul>
+    <p>* <small style="font-size: 75%">Referente del progetto.</small></p>
   </div>
-  <div class="6u$ 12u$(medium)">
+
+  <div class="6u 12u$(medium)">
+    <h5>Partner</h5>
     <ul>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
-      <li>Nomen Nescio</li>
+      <li>{{ site.partner.name }}</li>
     </ul>
+    <p><small style="font-size: 75%">{{ site.partner.description }}</small></p>
   </div>
-  <div class="6u$ 12u$(medium)">
-    <h5>Referente del progetto</h5>
-    <ul>
-      <li>Nomen Nescio</li>
-    </ul>
-  </div>
+
 </div>
 <br>
+
+
+
 
 <h5>Esperienze imprenditoriali, professionali, sociali e culturali più rilevanti del gruppo, anche ai fini del progetto presentato (max 1500 battute)</h5>
 

@@ -1725,21 +1725,21 @@ button,
   input[type="button"].special,
   button.special,
   .button.special {
-    background-color: #ed4933;
+    background-color: #e2eceb;
     box-shadow: none !important;
-    color: #ffffff !important; }
+    color: #2b2b2b !important; }
     input[type="submit"].special:hover,
     input[type="reset"].special:hover,
     input[type="button"].special:hover,
     button.special:hover,
     .button.special:hover {
-      background-color: #ef5e4a !important; }
+      background-color: #f1f6f6 !important; }
     input[type="submit"].special:active,
     input[type="reset"].special:active,
     input[type="button"].special:active,
     button.special:active,
     .button.special:active {
-      background-color: #eb341c !important; }
+      background-color: #d3e2e0 !important; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -2419,10 +2419,10 @@ body.is-menu-visible #menu {
       -webkit-transition-delay: 0.25s;
       -ms-transition-delay: 0.25s;
       transition-delay: 0.25s;
-      background: #fff;
+      background: #e2eceb;
       content: '';
       display: block;
-      height: 2px;
+      height: 3px;
       position: absolute;
       width: 100%; }
     #banner h2:before {

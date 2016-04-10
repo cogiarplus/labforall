@@ -1,7 +1,7 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
   <h1>
-    <a href="{{ site.baseurl }}/index.html"><img style="height: 16px" src="{{ "/images/icon-labforall.png" | prepend: site.baseurl }}" alt="Labforall"> {{ site.title }}</a>
+    <a href="{{ site.baseurl }}/index.html"><img style="height: 16px" src="{{ "/images/icon-labforall.png" | prepend: site.baseurl }}" alt="{{ site.nome_del_progetto }}"> {{ site.nome_del_progetto }}</a>
   </h1>
   <nav id="nav">
     <ul>
@@ -10,9 +10,9 @@
         <div id="menu">
           <ul>
             <li><a href="index.html">Home</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% for p in site.pages %}
+            {% if p.title %}
+            <li><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
             {% endif %}
             {% endfor %}
             <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="icon fa-feed"> RSS Feed</a></li> -->
