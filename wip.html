@@ -6,7 +6,13 @@ layout: landing
 <section id="banner">
 <div class="inner">
 	<h2 style="line-height: 0"><img src="{{ "/images/logo-labforall.png" | prepend: site.baseurl }}" alt=""></h2>
-	<p>{{ site.il_progetto_in_un_tweet | prepend: '<span class="icon fa-twitter"></span> ' | markdownify }}</p>
+
+  <div id="ticker-area" alt="1">
+    <ul>
+      <li>{{ site.il_progetto_in_un_tweet | prepend: '<span class="icon fa-twitter"></span> ' | markdownify }}</li>
+    </ul>
+  </div>
+
   <p><img src="{{ "/images/logo_bw-cogiarplus.png" | prepend: site.baseurl }}" alt="Cogiarplus"></p>
 	<!-- <ul class="actions"><li><a href="#" class="button special">Button</a></li></ul> -->
 </div>
