@@ -83,10 +83,10 @@ La collettività del quartiere avrà un centro culturale, open, nel quale far cr
 # SISTEMA DI OFFERTA E ATTIVITA` CHE VERRANNO PROPOSTE (MAX 1000 BATTUTE)
 # NOTE: Diviso in sei parti solo per ragioni grafiche
 sistema_di_offerta_e_proposte:
-  part_offerta_one: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
-  part_proposta_one: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
-  part_offerta_two: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
-  part_proposta_two: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient."
+  part_offerta_one: "L'offerta prevede attività di formazione effettuata da insoliti e qualificati docenti, ovvero artigiani, professionisti ed imprese, che metteranno a disposizione il proprio know-how, per favorire e rispondere alle esigenze dei fruitori, ovvero della collettività."
+  part_proposta_one: "Inoltre l'aula magna messa in relazione organicamente con il LabforAll sarà uno strumento per attività convegnistiche, manifestazioni, mostre che si aprirà alla città, diventando un polo ed attrattore culturale del fabbricato, che attulmente è \"a margine\" della città."
+  part_offerta_two: "Saranno attivati laboratori per la messa a punto di eventuali prototipi e brevetti, nonché postazioni informatiche con annessa biblioteca e di uno spazio dedicato al coworking, fruibile anche negli orari in cui la scuola è chiusa."
+  part_proposta_two: "Manifestazioni, mostre, convegni, spazi di dibattito, aule informatiche, attività laboratoriali, coworking."
   part_offerta_three:
   part_proposta_three:
 
