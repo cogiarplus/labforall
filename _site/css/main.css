@@ -1120,7 +1120,6 @@ a {
   -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   transition: color 0.2s ease, border-bottom-color 0.2s ease;
-  border-bottom: dotted 1px;
   color: inherit;
   text-decoration: none; }
   a:hover {
@@ -2681,3 +2680,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-size: cover; }
 body.is-mobile.landing #footer {
   background-color: #393939; }
+
+.bx-wrapper .bx-caption span {
+  padding: 5px 10px 15px !important;
+  line-height: 100%; }

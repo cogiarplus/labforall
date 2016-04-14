@@ -5,6 +5,14 @@
 */
 
 (function($) {
+  // bxSlider
+    $('.slider1').bxSlider({
+      slideWidth: 200,
+      minSlides: 2,
+      maxSlides: 6,
+      slideMargin: 0,
+      captions: true
+    });
 
 	skel
 		.breakpoints({
