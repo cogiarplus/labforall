@@ -1,0 +1,178 @@
+---
+layout: landing
+---
+
+<!-- Banner -->
+<section id="banner">
+<div class="inner">
+	<h2 style="line-height: 0"><img src="{{ "/images/logo-labforall.png" | prepend: site.baseurl }}" alt=""></h2>
+	<p>{{ site.il_progetto_in_un_tweet | prepend: '<span class="icon fa-twitter"></span> ' | markdownify }}</p>
+  <p><img src="{{ "/images/logo_bw-cogiarplus.png" | prepend: site.baseurl }}" alt="Cogiarplus"></p>
+	<!-- <ul class="actions"><li><a href="#" class="button special">Button</a></li></ul> -->
+</div>
+<a href="#bddep" class="more scrolly">Continua</a>
+</section>
+
+<!--
+<section id="ipiut" class="wrapper style3 special">
+<div class="inner">
+	<header class="major">
+		<h2>Il progetto in un tweet <span class="icon fa-twitter"></span></h2>
+    <p> {{ site.il_progetto_in_un_tweet }}</p>
+	</header>
+</div>
+</section> -->
+
+<section id="bddep" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major">
+      <h2>Breve descrizione del progetto</h2>
+      <p>{{ site.breve_descrizione_del_progetto }}</p>
+		</header>
+	</div>
+</section>
+
+<section id="pcicoip" class="wrapper style1 special">
+	<div class="inner">
+		<header class="major">
+      <h2>Principali campi in cui opera il progetto</h2>
+			<p>{{ site.principali_campi_in_cui_opera_il_progetto.description }}</p>
+		</header>
+		<ul class="icons major">
+			<li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_one }} major style1"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_one }}</span></span></li>
+			<li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_two }} major style2"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_two }}</span></span></li>
+			<li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_three }} major style3"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_three }}</span></span></li>
+		</ul>
+	</div>
+</section>
+
+<section id="adct" class="wrapper alt style2">
+<section class="spotlight">
+	<div class="image"><img src="images/ortofoto.png" alt="" /></div><div class="content">
+		<h2>Analisi del contesto territoriale</h2>
+		<p>{{ site.analisi_del_contesto_territoriale.part_one }}</p>
+  </div>
+</section>
+<section class="spotlight">
+	<div class="image"><img src="images/DSC00402.jpg" alt="" /></div><div class="content">
+		<p>{{ site.analisi_del_contesto_territoriale.part_two }}</p>
+	</div>
+</section>
+</section>
+
+<section id="dds" class="wrapper alt style2">
+<section class="spotlight">
+	<div class="image"><img src="images/10655030_1197852653566106_2126842176_n.jpg" alt="" /></div>
+  <div class="content">
+    <h2>Descrizione dello spazio che ospiterà il progetto</h2>
+		<p>{{ site.descrizione_dello_spazio.part_one }}</p>
+	</div>
+</section>
+<section class="spotlight">
+	<div class="image"><img src="images/12818873_191845327862860_373146835_n.jpg" alt="" /></div><div class="content">
+		<p>{{ site.descrizione_dello_spazio.part_two }}</p>
+	</div>
+</section>
+</section>
+
+<section id="peb" class="wrapper style3 special">
+<div class="inner">
+	<header class="major">
+    <h2>Pubblici e bisogni</h2>
+    <p>{{ site.pubblici_e_bisogni }}</p>
+	</header>
+
+	<ul class="features">
+
+		<li class="icon fa-flag-o">
+      <!-- <h3>Sistema di offerta</h3> -->
+			<p>{{ site.sistema_di_offerta_e_proposte.part_offerta_one }}</p>
+		</li>
+
+		<li class="icon fa-calendar">
+      <!-- <h3>Sistema di attività che verranno proposte</h3> -->
+			<p>{{ site.sistema_di_offerta_e_proposte.part_proposta_one }}</p>
+		</li>
+
+		<li class="icon fa-flag-o">
+			<p>{{ site.sistema_di_offerta_e_proposte.part_offerta_two }}</p>
+		</li>
+
+		<li class="icon fa-calendar">
+			<p>{{ site.sistema_di_offerta_e_proposte.part_proposta_two }}</p>
+		</li>
+
+    {% if site.sistema_di_offerta_e_proposte.part_offerta_three %}
+		<li class="icon fa-flag-o">
+			<p>{{ site.sistema_di_offerta_e_proposte.part_offerta_three }}</p>
+		</li>
+    {% endif %}
+
+    {% if site.sistema_di_offerta_e_proposte.part_proposta_three %}
+		<li class="icon fa-calendar">
+			<p>{{ site.sistema_di_offerta_e_proposte.part_proposta_three }}</p>
+		</li>
+    {% endif %}
+
+	</ul>
+</div>
+</section>
+
+<!-- <section id="cd" class="special">
+  <img style="width: 100%" src="images/facade05.png" alt="">
+</section> -->
+
+<section id="cd" class="wrapper style1 special">
+  <div class="inner">
+    <header class="major">
+      <h2>Caratteri distintivi</h2>
+      <p>{{ site.caratteri_distintivi }}</p>
+    </header>
+  </div>
+</section>
+
+  <section id="sadaeps" class="wrapper style2 special">
+    <div class="inner">
+      <header class="major">
+        <h2>Stato attuale di avanzamento e principali step da oggi alla realizzazione del progetto/avvio delle attività</h2>
+        <p>{{ site.stato_attuale_di_avanzamento_e_principali_step }}</p>
+      </header>
+    </div>
+  </section>
+
+  <section id="cta" class="wrapper style4">
+  <div class="inner">
+  	<header>
+      <h2>Elaborati grafici del progetto</h2>
+  	</header>
+    <!-- <ul class="actions vertical"><li><a href="#dds" class="button fit scrolly">Galleria</a></li></ul> -->
+    <ul class="actions vertical"><li><a href="#" class="button fit">Galleria</a></li></ul>
+  </div>
+  </section>
+
+  <section id="pdfedd" class="wrapper style3 special">
+    <div class="inner">
+      <header class="major">
+        <h2>Punti di forza e di debolezza del progetto e del team proponente</h2>
+        <p>{{ site.punti_di_forza_e_di_debolezza }}</p>
+      </header>
+    </div>
+  </section>
+
+    <section id="acecdr" class="wrapper style1 special">
+      <div class="inner">
+        <header class="major">
+          <h2>Approccio collaborativo e costruzione di reti</h2>
+          <p>{{ site.approccio_collaborativo_e_costruzione_di_reti }}</p>
+        </header>
+      </div>
+    </section>
+
+      <section id="oesdt" class="wrapper style2 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Modalità con cui il progetto immagina di creare opportunità di occupazione e sviluppo del territorio</h2>
+            <p>{{ site.occupazione_e_sviluppo_del_territorio }}</p>
+          </header>
+        </div>
+      </section>

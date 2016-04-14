@@ -3,6 +3,8 @@
   <h1>
     <a href="{{ site.baseurl }}/index.html"><img style="height: 16px" src="{{ "/images/icon-labforall.png" | prepend: site.baseurl }}" alt="{{ site.nome_del_progetto }}"> {{ site.nome_del_progetto }}</a>
   </h1>
+
+  {% if page.wip == null %}
   <nav id="nav">
     <ul>
       <li class="special">
@@ -21,4 +23,6 @@
       </li>
     </ul>
   </nav>
+  {% endif %}
+
 </header>

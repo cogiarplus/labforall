@@ -18,7 +18,9 @@
 
       {{ content }}
 
+      {% if page.wip == null %}
       {% include footer.html %}
+      {% endif %}
 
       {% include scripts.html %}
 
