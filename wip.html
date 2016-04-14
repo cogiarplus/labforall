@@ -7,11 +7,40 @@ layout: landing
 <div class="inner">
 	<h2 style="line-height: 0"><img src="{{ "/images/logo-labforall.png" | prepend: site.baseurl }}" alt=""></h2>
 
-  <div id="ticker-area" alt="1">
+  <!-- <div id="ticker-area" alt="1">
     <ul>
       <li style="display:none">{{ site.il_progetto_in_un_tweet | prepend: '<span class="icon fa-twitter"></span> ' | markdownify }}</li>
     </ul>
-  </div>
+  </div> -->
+
+
+
+
+  <p>
+    <a class="scale" href="https://twitter.com/cogiarplus" target="_blank">
+    <span class="icon fa-twitter"></span>
+    {% comment %}
+    http://stackoverflow.com/questions/12122238/is-there-a-way-to-split-text-on-whitespace-in-liquid
+    {% endcomment %}
+
+    {% assign word_index = 1 %}
+    {% assign words = site.il_progetto_in_un_tweet | split:&nbsp; %}
+      {% for word in words %}
+
+      <span>{{ word }}</span>
+
+      {% assign word_index = word_index | plus: 1 %}
+      {% if word_index == 10 %}
+      <br>
+      {% endif %}
+
+      {% endfor %}
+    </a>
+  </p>
+
+
+
+
 
   <p><img src="{{ "/images/logo_bw-cogiarplus.png" | prepend: site.baseurl }}" alt="Cogiarplus"></p>
 	<!-- <ul class="actions"><li><a href="#" class="button special">Button</a></li></ul> -->

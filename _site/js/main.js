@@ -5,6 +5,8 @@
 */
 
 (function($) {
+
+
   // bxSlider
     $('.slider1').bxSlider({
       slideWidth: 200,
@@ -18,7 +20,16 @@
 
 
 
+    $('.aaa').each(function(){
+        var text = $(this).html().split(' '),
+            len = text.length,
+            result = [];
 
+        for( var i = 0; i < len; i++ ) {
+            result[i] = '<span>' + text[i] + '</span>';
+        }
+        $(this).html(result.join(' '));
+    });
 
 
 
@@ -114,6 +125,10 @@
 			}
 
 
+
 	});
+
+
+
 
 })(jQuery);

@@ -1,23 +1,16 @@
 
 
 
-
-
-
             // when the DOM is ready...
             var tickerIterations = 0;
             var currentTickerIteration = 0;
             $(document).ready(function () {
-
-            setTimeout(function(){
               // load the ticker
             	createTicker();
-
-             }, 3000);
-
-
-
             });
+
+
+
 
             function createTicker(){
             	if (typeof $('#ticker-area').attr('alt') != 'undefined'){

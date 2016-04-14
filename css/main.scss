@@ -1846,3 +1846,35 @@ $baseurl: '{{ site.baseurl }}/images';
       padding: 5px 10px 15px !important;
       line-height: 100%;
   }
+
+
+
+
+
+
+
+
+.scale {
+
+
+
+
+  span {
+    font-size: 100%;
+      // color: #1da1f2;
+
+      -webkit-transition: color 2s, font-size 2s;
+         -moz-transition: color 2s, font-size 2s;
+           -o-transition: color 2s, font-size 2s;
+              transition: color 2s, font-size 2s;
+  }
+
+  span:hover {
+
+     font-size: 2em;
+     color:#1da1f2;
+  }
+
+
+
+}
