@@ -40,7 +40,7 @@ Il progetto è ideato da un gruppo di giovani architetti, con il supporto della 
 # PRINCIPALI CAMPI IN CUI OPERA IL PROGETTO (MAX 3)
 # NOTE: I campi `description` e `icon_` sono presenti solo per ragioni grafiche
 principali_campi_in_cui_opera_il_progetto:
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  description: "LabForAll come simbiosi tra <i>architettura</i>, <i>formazione</i> e <i>fablab</i>"
   topic_one: "architettura/urbanistica"
   icon_one: "fa-users"
   topic_two: "formazione"
@@ -56,14 +56,14 @@ principali_campi_in_cui_opera_il_progetto:
 # Caratteristiche geografiche, politiche, sociali e culturali del contesto in cui il progetto si inserisce
 # NOTE: Diviso in due parti solo per ragioni grafiche
 analisi_del_contesto_territoriale:
-  part_one: "Lab for All si sviluppa in un quartiere che negli ultimi anni è stato oggetto di riqualificazione urbana a partire dalla realizzazione dell’edificio per Uffici Fater progettato dall’arch. Massimiliano Fuksas fino a una serie di edifici residenziali che dimostrano un’attenzione concreta alla qualità architettonica e urbana e al recupero di un quartiere marginale della città seppur prossimo a funzioni di interesse pubblico come l’Università degli studi “G. D’Annunzio”, il tribunale e la stazione ferroviaria di Portanuova, anch’essa da pochi anni oggetto di ristrutturazione e recupero della facciata d’interesse storico."
+  part_one: "LabForAll si sviluppa in un quartiere che negli ultimi anni è stato oggetto di riqualificazione urbana a partire dalla realizzazione dell’edificio per Uffici Fater progettato dall’arch. Massimiliano Fuksas fino a una serie di edifici residenziali che dimostrano un’attenzione concreta alla qualità architettonica e urbana e al recupero di un quartiere marginale della città seppur prossimo a funzioni di interesse pubblico come l’Università degli studi “G. D’Annunzio”, il tribunale e la stazione ferroviaria di Portanuova, anch’essa da pochi anni oggetto di ristrutturazione e recupero della facciata d’interesse storico."
   part_two: "La scuola è facilmente raggiungibile con i mezzi pubblici. L’obiettivo dell’intervento si colloca, quindi, in una dimensione dinamica, all’interno di un brano di città che si sta rigenerando dal punto di vista architettonico e urbano, ma che necessita ancora di spazi da condividere che la cittadinanza possa sentire come propri e di una spinta verso la coesione sociale. "
 
 # DESCRIZIONE DELLO SPAZIO CHE OSPITERA` IL PROGETTO (MAX 1000 BATTUTE)
 # Indicare proprietà, stato di assegnazione, se dismesso o attivo, se pronto per le attività o necessita di ristrutturazioni/implementazioni
 # NOTE: Diviso in due parti solo per ragioni grafiche
 descrizione_dello_spazio:
-  part_one: "Lab for All recupera degli spazi inutilizzati e sottoutilizzati dell’Istituto Tecnico Industriale “A. Volta”. Quest’ultimo è situato in un complesso di circa 33mila metri quadri e strutturato in vari edifici che oggi ospitano 62 aule, 26 laboratori (5 di chimica, 3 di elettronica e telecomunicazioni, 3 di elettrotecnica, 6 di meccanica, 2 di fisica, 3 aule multimediali, 1 aula linguistica, 3 di disegno tecnico), un’ampia palestra attrezzata, una piscina coperta a cinque corsie, 4 campetti esterni, ampi parcheggi e aree verdi. "
+  part_one: "LabForAll recupera degli spazi inutilizzati e sottoutilizzati dell’Istituto Tecnico Industriale “A. Volta”. Quest’ultimo è situato in un complesso di circa 33mila metri quadri e strutturato in vari edifici che oggi ospitano 62 aule, 26 laboratori (5 di chimica, 3 di elettronica e telecomunicazioni, 3 di elettrotecnica, 6 di meccanica, 2 di fisica, 3 aule multimediali, 1 aula linguistica, 3 di disegno tecnico), un’ampia palestra attrezzata, una piscina coperta a cinque corsie, 4 campetti esterni, ampi parcheggi e aree verdi. "
   part_two: "Le peculiarità architettoniche del complesso sono il continuo salto di quota dei solai di copertura per rispondere alla necessità di illuminazione naturale delle aule e laboratori e la presenza di giardini che si pongono come spazi aperti ma racchiusi dalle aule, che consentono una percezione continua e dinamica degli ambienti. In questo contesto Lab for All aspira a divenire un luogo da condividere, aperto a persone di tutte le età e di diversi interessi."
 
 # TODO: DOCUMENTO CHE ATTESTA LA PROPRIETÀ, LA CONCESSIONE O L’ESISTENZA DI UN PROCESSO IN ATTO PER L’ASSEGNAZIONE DELLO SPAZIO (MAX SIZE 2MB - FORMATI CONSENTITI: .DOC .PDF .ZIP .JPG)
@@ -92,22 +92,21 @@ sistema_di_offerta_e_proposte:
 
 # CARATTERI DISTINTIVI (max 1000 battute)
 # Peculiarità che contraddistinguono il progetto, eventuali elementi di innovazione
-caratteri_distintivi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+caratteri_distintivi: "Il progetto si sviluppa in una zona a margine della città nell’obiettivo di rigenerare il tessuto sociale urbano e attivare processi di coesione e cooperazione. Gli spazi sottoutilizzati dell’Istituto vengono rivalutati per inserirvi laboratori avanzati di sperimentazione in ambito informatico, elettrico, elettronico e di comunicazione con la presenza di personale docente altamente specializzato e con le aziende locali e non. Agli utenti viene offerta la possibilità di proporre le proprie idee e aspirazioni, di metterle in rete per produrre innovazione. Le modalità formative sono una sperimentazione costante e si adattano ai bisogni e alle esigenze in evoluzione continua."
 
 # STATO ATTUALE DI AVANZAMENTO E PRINCIPALI STEP DA OGGI ALLA REALIZZAZIONE DEL PROGETTO/AVVIO DELLE ATTIVITA` (MAX 1000 BATTUTE)
 stato_attuale_di_avanzamento_e_principali_step: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
 
 # PUNTI DI FORZA E DI DEBOLEZZA DEL PROGETTO E DEL TEAM PROPONENTE (MAX 1500 BATTUTE)
-punti_di_forza_e_di_debolezza: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero."
+punti_di_forza_e_di_debolezza: "Il team proponente si compone di giovani architetti che, seppur accomunati dalla medesima formazione, hanno svolto esperienze professionali e personali diverse. Partendo dalla conoscenza del tessuto sociale locale e mettendo insieme le proprie idee e capacità ha dato vita ad un progetto innovativo. Tale progetto, dunque, mette insieme da un lato le esigenze architettoniche e dall'altro quelle culturali per poter sviluppare un programma di rigenerazione del territorio e della comunità locale. Il progetto nasce da una necessità concreta di spazi e di opportunità di formazione per i giovani con la prospettiva di creare reti che aiutino i ragazzi ad entrare nel mondo del lavoro e, allo stesso tempo, riqualificare il contesto urbano in cui è inserito. L'idea di utilizzare un edificio esistente già attivo e dinamico offre al progetto un punto di partenza privilegiato per il suo sviluppo futuro, anche grazie al confronto con i docenti che conoscono già il territorio e che vivono quotidianamente il contesto sociale."
 
 # APPROCCIO COLLABORATIVO E COSTRUZIONE DI RETI (MAX 1000 BATTUTE)
 # Partnership e reti in essere, altre collaborazioni che si intendono attivare e come
 approccio_collaborativo_e_costruzione_di_reti: "Il progetto nasce dalla partnership tra l'I.I.S. A. Volta, Provincia di Pescara ed il gruppo di progettazione Cogiarplus uniti nell'intento di ampliare, modernizzare ed ampliare la struttura scolastica destinando una parte dello spazio ad attività extra-scolastiche.
 La struttura stessa ambisce ad essere un luogo dove poter sviluppare nuovi legami tra giovani, docenti, specialisti attraverso convegni ed attività mirate allo sviluppo di nuove competenze."
 
-
 # MODALITA` CON CUI IL PROGETTO IMMAGINA DI CREARE OPPORTUNITA` DI OCCUPAZIONE E SVILUPPO DEL TERRITORIO (MAX 1000 BATTUTE)
-occupazione_e_sviluppo_del_territorio: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
+occupazione_e_sviluppo_del_territorio: "Il progetto Labforall costituisce attraverso le attività che accoglie al suo interno un'ottima opportunità di occupazione e sviluppo del territorio rendendo partecipi  i cittadini a tutte le iniziative formative, eventi culturali organizzati e da organizzare al suo interno. Le attività di laboratorio multidisciplinare contribuiscono a inserire i partecipanti nel mondo del lavoro attraverso l’incontro tra i soggetti aspiranti, i docenti e le aziende locali e non, i quali intraprendono progetti e attività condivise."
 
 ################################################################################
 ########################### MODELLO DI SOSTENIBILITA` ##########################
@@ -117,8 +116,7 @@ occupazione_e_sviluppo_del_territorio: "Lorem ipsum dolor sit amet, consectetuer
 # Stima a 3 anni
 # Indicare investimenti previsti: quali e quanti
 # Costi principali: quali e quanti
-costi: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum."
-
+costi: "LabForAll è un progetto che si inserisce nella rifunzionalizzazione o meglio nella rigenerazione dei 3 corpi di fabbrica esposti a NO dell'intero impianto scolastico, composto da 11 corpi di fabbrica come da elaborato planimetrico. La rigenerazione organica dell'intervento, prevede l'integrazione dei 3 corpi, attualmente destinati a Laboratori di elettronica e corridoio e spazi non utilizzati residuali alle corti interne, mediante interventi di demolizione e ricostruzione, con ampliamento dell'ingresso e creazione di ulteriori ambienti da destinare a Laboratori e spazi polifunzionali da destinare al coworking. il costo delle opere e degli interventi delle opere edilizie ed impiantistiche è stato computato con un quadro economico sommario, non superiore a euro 180.000,00, mentre le pareti mobili, gli arredi, e le attrezzature necessarie al laboratorio, biblioteca, spazio polifunzionale e postazione coworking, nonchè attrezzature per spazio esterno euro 350.000,00."
 # MODELLO DI SOSTENIBILITÀ ECONOMICA: LE ENTRATE (MAX 1500 BATTUTE)
 # Stima a 3 anni
 # Contributi pubblici: se si, quali e per quale cifra
@@ -133,12 +131,12 @@ entrate: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo
 
 # NOTE: Inserire il referente del progetto nella prima variabile annidata
 proponenti:
-  name_one: "Arch. Nomen Nescio"
-  name_two: "Arch. Nomen Nescio"
-  name_three: "Arch. Nomen Nescio"
-  name_four: "Arch. Nomen Nescio"
-  name_five: "Arch. Nomen Nescio"
-  name_six: "Arch. Nomen Nescio"
+  name_one: "Arch. Antosa Laura"
+  name_two: "Arch. Blasioli Ida"
+  name_three: "Arch. Prencipe Rita"
+  name_four: "Arch. Ranalli Francesca"
+  name_five: "Arch. Rasicci Pierpaolo"
+  name_six: "Arch. Valente Simona"
 
 # NOTE: Usare la barra retroversa (backslash) per evadere i doppi apici
 partner:
