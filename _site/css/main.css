@@ -2694,3 +2694,6 @@ body.is-mobile.landing #footer {
 .scale span:hover {
   font-size: 2em;
   color: #1da1f2; }
+
+.maps iframe {
+  pointer-events: none; }

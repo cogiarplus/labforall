@@ -20,6 +20,13 @@
 
 
 
+    $('.maps').click(function () {
+        $('.maps iframe').css("pointer-events", "auto");
+    });
+
+
+    
+
     $('.aaa').each(function(){
         var text = $(this).html().split(' '),
             len = text.length,

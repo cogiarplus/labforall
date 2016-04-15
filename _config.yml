@@ -33,7 +33,7 @@ regione: "Abruzzo"
 il_progetto_in_un_tweet: "La scuola è LabforAll: condividi impara sperimenta socializza lavora! Tu cresci il quartiere si rigenera."
 
 # BREVE DESCRIZIONE DEL PROGETTO (MAX 2500 BATTUTE)
-breve_descrizione_del_progetto: "Lab for All intende recuperare spazi dell’Istituto “A. Volta” e aprire il complesso scolastico alla comunità del quartiere e dell’intera città in orario extrascolastico, per divenire un incubatore di coesione sociale, condivisione in cui informarsi, lavorare insieme e trovare supporto per l’accesso al mondo del lavoro. Per farlo, si intende ristrutturare parte dell’aula magna, i cortili interni, i corridoi, le aule di elettronica, tecnica e disegno e la sala prove musicali, attualmente sottoutilizzate al fine di ospitare la biblioteca, laboratori e postazioni informatiche, convegni, incontri culturali e laboratori artistici e di comunicazione. I laboratori conterranno attrezzature e attività utili all’applicazione dell’utente in diversi campi pratici: isole digitali, isole di lavoro e produzione elettrica e elettronica, processi innovativi (stampanti 3d, ecc.), aule per workshop e multifunzionali. Un punto di forza del progetto è la flessibilità degli ambienti, che mutano in base alle necessità contingenti attraverso l’utilizzo di pareti mobili. 
+breve_descrizione_del_progetto: "Lab for All intende recuperare spazi dell’Istituto “A. Volta” e aprire il complesso scolastico alla comunità del quartiere e dell’intera città in orario extrascolastico, per divenire un incubatore di coesione sociale, condivisione in cui informarsi, lavorare insieme e trovare supporto per l’accesso al mondo del lavoro. Per farlo, si intende ristrutturare parte dell’aula magna, i cortili interni, i corridoi, le aule di elettronica, tecnica e disegno e la sala prove musicali, attualmente sottoutilizzate al fine di ospitare la biblioteca, laboratori e postazioni informatiche, convegni, incontri culturali e laboratori artistici e di comunicazione. I laboratori conterranno attrezzature e attività utili all’applicazione dell’utente in diversi campi pratici: isole digitali, isole di lavoro e produzione elettrica e elettronica, processi innovativi (stampanti 3d, ecc.), aule per workshop e multifunzionali. Un punto di forza del progetto è la flessibilità degli ambienti, che mutano in base alle necessità contingenti attraverso l’utilizzo di pareti mobili.
 Il progetto è ideato da un gruppo di giovani architetti, con il supporto della provincia, dell’istituto scolastico, dell’ordine degli architetti e del tessuto associativo locale. Gli spazi saranno destinati ad accogliere in diverse fasce orarie giovani, studenti in corso e in uscita e chiunque voglia immettersi o reinserirsi nel mondo del lavoro, confrontandosi con esso attraverso la formazione di professionisti e artigiani."
 
 
@@ -70,14 +70,14 @@ descrizione_dello_spazio:
 
 # PUBBLICI E BISOGNI (MAX 1000 BATTUTE)
 # Destinatari del progetto e loro bisogni, modalità con cui si prevede di attivare processi di coinvolgimento delle comunità di riferimento
-pubblici_e_bisogni: "Il LabForAll si rivolge a studenti, giovani cittadini, professionisti, mondo artigianale e produttivo 
-per incontrasi e favorire il cosiddetto coworking innovativo volto ad innescare \"la trasmissione del sapere\" attraverso 
-l'elaborazione di una metodologia di apprendimento -learning by doing. 
+pubblici_e_bisogni: "Il LabForAll si rivolge a studenti, giovani cittadini, professionisti, mondo artigianale e produttivo
+per incontrasi e favorire il cosiddetto coworking innovativo volto ad innescare \"la trasmissione del sapere\" attraverso
+l'elaborazione di una metodologia di apprendimento -learning by doing.
 Attraverso eventi di partecipazione pubblica e cittadini, la scuola ed il mondo professionale si apriranno
-alla comunità mettendo a disposizione aule e spazi, per favorire incontro tra domanda ed offerta lavorativa, 
-creando la possibilità di far vivere quello spazio oggi in disuso dell'Istituto, a favore della collettività. 
-Gli studenti avranno modo di confrontarsi con il mondo lavorativo, i giovani senza lavoro avranno modo di apprendere e 
-stimolare le proprie attitudini ed inclinazioni culturali e creative attraverso un modo nuovo di conoscere. 
+alla comunità mettendo a disposizione aule e spazi, per favorire incontro tra domanda ed offerta lavorativa,
+creando la possibilità di far vivere quello spazio oggi in disuso dell'Istituto, a favore della collettività.
+Gli studenti avranno modo di confrontarsi con il mondo lavorativo, i giovani senza lavoro avranno modo di apprendere e
+stimolare le proprie attitudini ed inclinazioni culturali e creative attraverso un modo nuovo di conoscere.
 La collettività del quartiere avrà un centro culturale, open, nel quale far crescere il proprio bisogno di inclusione sociale."
 
 # SISTEMA DI OFFERTA E ATTIVITA` CHE VERRANNO PROPOSTE (MAX 1000 BATTUTE)
@@ -106,7 +106,9 @@ approccio_collaborativo_e_costruzione_di_reti: "Il progetto nasce dalla partners
 La struttura stessa ambisce ad essere un luogo dove poter sviluppare nuovi legami tra giovani, docenti, specialisti attraverso convegni ed attività mirate allo sviluppo di nuove competenze."
 
 # MODALITA` CON CUI IL PROGETTO IMMAGINA DI CREARE OPPORTUNITA` DI OCCUPAZIONE E SVILUPPO DEL TERRITORIO (MAX 1000 BATTUTE)
-occupazione_e_sviluppo_del_territorio: "Il progetto Labforall costituisce attraverso le attività che accoglie al suo interno un'ottima opportunità di occupazione e sviluppo del territorio rendendo partecipi  i cittadini a tutte le iniziative formative, eventi culturali organizzati e da organizzare al suo interno. Le attività di laboratorio multidisciplinare contribuiscono a inserire i partecipanti nel mondo del lavoro attraverso l’incontro tra i soggetti aspiranti, i docenti e le aziende locali e non, i quali intraprendono progetti e attività condivise."
+occupazione_e_sviluppo_del_territorio:
+  part_occupazione_one: "Il progetto Labforall costituisce attraverso le attività che accoglie al suo interno un'ottima opportunità di occupazione e sviluppo del territorio rendendo partecipi  i cittadini a tutte le iniziative formative, eventi culturali organizzati e da organizzare al suo interno."
+  part_occupazione_two: "Le attività di laboratorio multidisciplinare contribuiscono a inserire i partecipanti nel mondo del lavoro attraverso l’incontro tra i soggetti aspiranti, i docenti e le aziende locali e non, i quali intraprendono progetti e attività condivise."
 
 ################################################################################
 ########################### MODELLO DI SOSTENIBILITA` ##########################

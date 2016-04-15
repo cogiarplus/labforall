@@ -1841,7 +1841,6 @@ $baseurl: '{{ site.baseurl }}/images';
 
 
 
-
   .bx-wrapper .bx-caption span {
       padding: 5px 10px 15px !important;
       line-height: 100%;
@@ -1852,29 +1851,35 @@ $baseurl: '{{ site.baseurl }}/images';
 
 
 
-
-
 .scale {
-
-
-
-
   span {
     font-size: 100%;
-      // color: #1da1f2;
-
       -webkit-transition: color 2s, font-size 2s;
          -moz-transition: color 2s, font-size 2s;
            -o-transition: color 2s, font-size 2s;
               transition: color 2s, font-size 2s;
   }
-
   span:hover {
 
      font-size: 2em;
      color:#1da1f2;
   }
+}
 
 
+
+
+
+
+
+// .maps {
+//   opacity: 0.5;
+//   filter: alpha(opacity=50); /* For IE8 and earlier */
+// }
+
+
+
+.maps iframe{
+    pointer-events: none;
 
 }
