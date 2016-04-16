@@ -2709,3 +2709,6 @@ body.is-mobile.landing #footer {
 
 .mfp-bg {
   background: #4d4d4d; }
+
+.mfp-arrow-left:before, .mfp-arrow-right:before {
+  display: none !important; }
