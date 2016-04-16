@@ -2697,3 +2697,15 @@ body.is-mobile.landing #footer {
 
 .maps iframe {
   pointer-events: none; }
+
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+  color: #4d4d4d; }
+
+.mfp-bg {
+  background: #4d4d4d; }

@@ -3,15 +3,86 @@ layout: default
 ---
 <article id="main">
 
+
+  {% if page.gallery == null %}
+
   <header>
     {% if page.grouptitle %}
     <h2 style="line-height: 0"><img src="{{ "/images/logo_bw_big-cogiarplus.png" | prepend: site.baseurl }}" alt=""></h2>
     <!-- <br><ul class="actions"><li><a href="{{ site.url }}" class="button special">Visita</a></li></ul> -->
+    <br>
+    <div class="slider1">
+      <div class="slide">
+        <a href="#laura" class="laura"><img src="{{ "/images/laura.jpg" | prepend: site.baseurl }}" title="Arch. L.Antosa"></a>
+      </div>
+      <div class="slide">
+        <a href="#ida" class="ida"><img src="{{ "/images/ida.jpg" | prepend: site.baseurl }}" title="Arch. I.Blasioli"></a>
+      </div>
+      <div class="slide">
+        <a href="#rita" class="rita"><img src="{{ "/images/rita.jpg" | prepend: site.baseurl }}" title="Arch. R.Prencipe"></a>
+      </div>
+      <div class="slide">
+        <a href="#francesca" class="francesca"><img src="{{ "/images/francesca.jpg" | prepend: site.baseurl }}" title="Arch. F.Ranalli"></a>
+      </div>
+      <div class="slide">
+        <a href="#pierpaolo" class="pierpaolo"><img src="{{ "/images/pierpaolo.jpg" | prepend: site.baseurl }}" title="Arch. P.Rasicci"></a>
+      </div>
+      <div class="slide">
+        <a href="#simona" class="simona"><img src="{{ "/images/simona.jpg" | prepend: site.baseurl }}" title="Arch. S.Valente"></a>
+      </div>
+    </div>
+
+    <div id="laura" class="white-popup-block mfp-hide">
+    	<h1>Modal dialog</h1>
+    	<p>{{ site.proponenti.name_one_description }}</p>
+      <blockquote cite="http://">{{ site.proponenti.name_one }}</blockquote>
+    <!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+    <div id="ida" class="white-popup-block mfp-hide">
+        <p>{{ site.proponenti.name_two_description }}</p>
+        <blockquote cite="http://">{{ site.proponenti.name_two }}</blockquote>
+    	<!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+    <div id="rita" class="white-popup-block mfp-hide">
+      <p>{{ site.proponenti.name_three_description }}</p>
+        <blockquote cite="http://">{{ site.proponenti.name_three }}</blockquote>
+    	<!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+    <div id="francesca" class="white-popup-block mfp-hide">
+      <p>{{ site.proponenti.name_four_description }}</p>
+        <blockquote cite="http://">{{ site.proponenti.name_four }}</blockquote>
+    	<!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+    <div id="pierpaolo" class="white-popup-block mfp-hide">
+      <p>{{ site.proponenti.name_five_description }}</p>
+        <blockquote cite="http://">{{ site.proponenti.name_five }}</blockquote>
+    	<!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+    <div id="simona" class="white-popup-block mfp-hide">
+      <p>{{ site.proponenti.name_six_description }}</p>
+      <blockquote cite="http://">{{ site.proponenti.name_six }}</blockquote>
+    <!-- <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p> -->
+    </div>
+
+
+    <h5>Partner</h5>
+    <ul style="list-style:none"><li>{{ site.partner.name }}</li></ul>
+
     {% else %}
     <h2>{{ page.title }}</h2>
     {% endif %}
     <p>{{ page.description }}</p>
+
   </header>
+
+
+
+  {% endif %}
 
 
   <section class="wrapper style5">

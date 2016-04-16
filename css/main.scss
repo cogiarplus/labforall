@@ -1836,21 +1836,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+// bxslider
+.bx-wrapper .bx-caption span {
+    padding: 5px 10px 15px !important;
+    line-height: 100%;
+}
 
-
-
-
-
-  .bx-wrapper .bx-caption span {
-      padding: 5px 10px 15px !important;
-      line-height: 100%;
-  }
-
-
-
-
-
-
+// Hover mouse twitter
 .scale {
   span {
     font-size: 100%;
@@ -1860,26 +1852,29 @@ $baseurl: '{{ site.baseurl }}/images';
               transition: color 2s, font-size 2s;
   }
   span:hover {
-
      font-size: 2em;
      color:#1da1f2;
   }
 }
 
-
-
-
-
-
-
-// .maps {
-//   opacity: 0.5;
-//   filter: alpha(opacity=50); /* For IE8 and earlier */
-// }
-
-
-
+// Google map
 .maps iframe{
     pointer-events: none;
+}
+
+// popup
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+    color: #4d4d4d;
+}
+
+
+.mfp-bg {
+    background: #4d4d4d;
 
 }

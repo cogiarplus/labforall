@@ -6,6 +6,66 @@
 
 (function($) {
 
+    // bxSlider
+    $('.slider1').bxSlider({
+      slideWidth: 200,
+      minSlides: 2,
+      maxSlides: 6,
+      slideMargin: 0,
+      controls: false,
+      captions: false
+    });
+
+      // magnific popup
+    $(function () {
+    	$('.popup-modal').magnificPopup({
+    		// type: 'inline',
+    		// preloader: false,
+    		// focus: '#username',
+    		// modal: true
+    	});
+      $('.laura').magnificPopup();
+      $('.ida').magnificPopup();
+      $('.rita').magnificPopup();
+      $('.francesca').magnificPopup();
+      $('.pierpaolo').magnificPopup();
+      $('.simona').magnificPopup();
+
+    	$(document).on('click', '.popup-modal-dismiss', function (e) {
+    		e.preventDefault();
+    		$.magnificPopup.close();
+    	});
+    });
+
+
+    $(document).ready(function() {
+    	$('.popup-gallery').magnificPopup({
+    		delegate: 'a',
+    		type: 'image',
+    		tLoading: 'Loading image #%curr%...',
+    		mainClass: 'mfp-img-mobile',
+    		gallery: {
+    			enabled: true,
+    			navigateByImgClick: true,
+    			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    		},
+    		image: {
+    			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+    			titleSrc: function(item) {
+    				return item.el.attr('title') + '';
+    			}
+    		}
+    	});
+    });
+
+
+
+    // Google map
+    $('.maps').click(function () {
+      $('.maps iframe').css("pointer-events", "auto");
+    });
+
+
 	skel
 		.breakpoints({
 			xlarge:	'(max-width: 1680px)',
@@ -95,11 +155,7 @@
 
 			}
 
-
-
 	});
-
-
 
 
 })(jQuery);

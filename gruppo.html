@@ -5,9 +5,9 @@ grouptitle: Cogiarplus
 description:
 ---
 
-<h3>Soggetto proponente</h3>
+<!-- <h3>Soggetto proponente</h3> -->
 
-<div class="row">
+<!-- <div class="row">
   <div class="6u 12u$(medium)">
     <h5>Proponenti</h5>
     <ul>
@@ -29,44 +29,15 @@ description:
 
   <div class="6u 12u$(medium)">
     <h5>Partner</h5>
-    <ul>
-      <li>{{ site.partner.name }}</li>
-    </ul>
+    <ul><li>{{ site.partner.name }}</li></ul>
     <p><small style="font-size: 75%">{{ site.partner.description }}</small></p>
   </div>
 
-</div>
-<br>
+</div> -->
 
-<div class="slider1">
-  <div class="slide"><img src="{{ "/images/laura.jpg" | prepend: site.baseurl }}" title="Arch. L.Antosa"></div>
-  <div class="slide"><img src="{{ "/images/ida.jpg" | prepend: site.baseurl }}" title="Arch. I.Blasioli"></div>
-  <div class="slide"><img src="{{ "/images/rita.jpg" | prepend: site.baseurl }}" title="Arch. R.Prencipe"></div>
-  <div class="slide"><img src="{{ "/images/francesca.jpg" | prepend: site.baseurl }}" title="Arch. F.Ranalli"></div>
-  <div class="slide"><img src="{{ "/images/pierpaolo.jpg" | prepend: site.baseurl }}" title="Arch. P.Rasicci"></div>
-  <div class="slide"><img src="{{ "/images/simona.jpg" | prepend: site.baseurl }}" title="Arch. S.Valente"></div>
-</div>
+
 
 {% if site.esperienze_imprenditoriali_professionali_sociali_e_culturali %}
-<h5>Esperienze imprenditoriali, professionali, sociali e culturali più rilevanti del gruppo, anche ai fini del progetto presentato (max 1500 battute)</h5>
+<h5>Esperienze imprenditoriali, professionali, sociali e culturali più rilevanti del gruppo, anche ai fini del progetto presentato</h5>
 <p>{{ site.esperienze_imprenditoriali_professionali_sociali_e_culturali }}</p>
 {% endif %}
-
-
-
-
-
-<script>
-$( document ).ready(function() {
-
-// bxSlider
-  $('.slider1').bxSlider({
-    slideWidth: 200,
-    minSlides: 2,
-    maxSlides: 6,
-    slideMargin: 0,
-    captions: true
-  });
-});
-
-</script>

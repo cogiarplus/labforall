@@ -51,11 +51,11 @@ layout: landing
 
 
 
+<!-- <img src="images/inquadramento.jpg" alt="" style="width:100%;"> -->
 
-      <img src="images/inquadramento.jpg" alt="" style="width:100%;">
-
-
-
+<div class='embed-container maps' style="margin-bottom: -10px;">
+  <iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15123.824041732789!2d14.204716384362074!3d42.456302109584044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1331a61cc06de487%3A0x6162f72f8d54f7bb!2sI.I.S.+Alessandro+Volta!5e1!3m2!1sen!2sit!4v1460728175874" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 
 <section id="bddep" class="wrapper style3 special">
 	<div class="inner">
@@ -66,7 +66,7 @@ layout: landing
 	</div>
 </section>
 
-<section id="pcicoip" class="wrapper style1 special">
+<!-- <section id="pcicoip" class="wrapper style1 special">
 	<div class="inner">
 		<header class="major">
       <h2>Principali campi in cui opera il progetto</h2>
@@ -78,7 +78,7 @@ layout: landing
 			<li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_three }} major style3"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_three }}</span></span></li>
 		</ul>
 	</div>
-</section>
+</section> -->
 
 <section id="adct" class="wrapper alt style2">
 <section class="spotlight">
@@ -162,6 +162,12 @@ layout: landing
       <h2>Caratteri distintivi</h2>
       <p>{{ site.caratteri_distintivi }}</p>
     </header>
+    <ul class="icons major">
+      <li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_one }} major style1"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_one }}</span></span></li>
+      <li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_two }} major style2"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_two }}</span></span></li>
+      <li><span class="icon {{ site.principali_campi_in_cui_opera_il_progetto.icon_three }} major style3"><span class="label">{{ site.principali_campi_in_cui_opera_il_progetto.topic_three }}</span></span></li>
+    </ul>
+
   </div>
 </section>
 
@@ -203,9 +209,19 @@ layout: landing
     </section> -->
 
 
+    <img src="images/sezione.jpg" alt="" style="width:100%">
+
+
+    <section id="cta" class="wrapper style4">
+    <div class="inner">
+      <header>
+        <h2>Reti, opportunità e sviluppo</h2>
+      </header>
+      <ul class="actions vertical"><li><a href="#accr" class="button fit scrolly">Reti</a></li></ul>
+    </div>
+    </section>
 
     <section class="wrapper alt style2">
-
 
       <!-- <section id="oesdt" class="wrapper style2 special">
         <div class="inner">
@@ -217,22 +233,25 @@ layout: landing
       </section> -->
 
 
-      <img src="images/sezione.jpg" alt="" style="width:100%">
 
-
-      <section class="spotlight">
+      <section id="accr" class="spotlight">
       	<div class="image"><img src="images/planimetria.jpg" alt="" /></div>
         <div class="content">
           <h2>Approccio collaborativo e costruzione di reti</h2>
           <p>{{ site.approccio_collaborativo_e_costruzione_di_reti }}</p>
       	</div>
       </section>
+
+
+
+
       <section class="spotlight">
         <div class="image"><img src="images/render-interno.jpg" alt="" /></div><div class="content">
           <h2>Modalità con cui il progetto immagina di creare opportunità di occupazione e sviluppo del territorio</h2>
           <p>{{ site.occupazione_e_sviluppo_del_territorio.part_occupazione_one }}</p>
       	</div>
       </section>
+
       <section class="spotlight">
         <div class="image"><img src="images/render-esterno.jpg" alt="" /></div><div class="content">
           <p>{{ site.occupazione_e_sviluppo_del_territorio.part_occupazione_two }}</p>
