@@ -16,6 +16,14 @@
       captions: false
     });
 
+    $('.slider2').bxSlider({
+      slideWidth: 300,
+      minSlides: 1,
+      maxSlides: 4,
+      slideMargin: 0,
+      controls: false,
+      captions: false
+    });
       // magnific popup
     $(function () {
     	$('.popup-modal').magnificPopup({
@@ -35,6 +43,16 @@
     		e.preventDefault();
     		$.magnificPopup.close();
     	});
+    });
+
+    $(function () {
+      $('.render00').magnificPopup();
+      $('.hall').magnificPopup();
+      $('.facade08').magnificPopup();
+      $('.modello-torre').magnificPopup();
+      $('.modello-stecca').magnificPopup();
+      $('.funzioni-torre').magnificPopup();
+      $('.funzioni-stecca').magnificPopup();
     });
 
 

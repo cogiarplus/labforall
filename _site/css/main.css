@@ -2712,3 +2712,6 @@ body.is-mobile.landing #footer {
 
 .mfp-arrow-left:before, .mfp-arrow-right:before {
   display: none !important; }
+
+.white-popup-block {
+  margin: 60px auto; }
